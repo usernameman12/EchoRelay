@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EchoRelay - Chat</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/dark-theme.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script defer src="/js/chat.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <aside class="chat-sidebar">
+      <h3>Chat Rooms</h3>
+      <ul id="roomList"></ul>
+      <input type="text" id="newRoom" placeholder="New Room Name">
+      <button id="createRoomBtn">Create Room</button>
+    </aside>
+    <main class="chat-main">
+      <div id="chatBox" class="chat-box"></div>
+      <form id="messageForm">
+        <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

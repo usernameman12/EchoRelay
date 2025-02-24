@@ -1,0 +1,29 @@
+EchoRelay/
+│── public/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── dark-theme.css
+│   ├── js/
+│   │   ├── chat.js
+│   │   ├── auth.js
+│   ├── images/
+│       ├── logo.png
+│── views/
+│   ├── index.html
+│   ├── chat.html
+│   ├── login.html
+│   ├── admin.html
+│── server/
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── chat.js
+│   │   ├── admin.js
+│   ├── ws.js
+│   ├── database.js
+│   ├── session.js
+│── config/
+│   ├── settings.json
+│── .gitignore
+│── package.json
+│── server.js
+│── README.md
